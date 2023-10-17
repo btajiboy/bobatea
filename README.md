@@ -23,16 +23,16 @@ Bobatea es un sistema de gestión de ventas y compras de productos desarrollado 
 
 1. Clona el repositorio de Bobatea en tu servidor web:
    
-   git clone https://github.com/tuusuario/bobatea.git
+   git clone https://github.com/btajiboy/bobatea.git
 
 
-2. Crea una base de datos MySQL para Bobatea y configura las credenciales de acceso en el archivo `global.php` y el archivo `conexion.php`
+3. Crea una base de datos MySQL para Bobatea y configura las credenciales de acceso en el archivo `global.php` y el archivo `conexion.php`
 define('DB_HOST', 'tu_host');
 define('DB_USER', 'tu_usuario');
 define('DB_PASS', 'tu_contraseña');
 define('DB_NAME', 'nombre_de_la_base_de_datos');
 
- 3. Importa la estructura de la base de datos desde el archivo database.sql incluido en el repositorio:
+ 4. Importa la estructura de la base de datos desde el archivo database.sql incluido en el repositorio:
 
 mysql -u tu_usuario -p nombre_de_la_base_de_datos < database.sql
 
